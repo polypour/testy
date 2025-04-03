@@ -10,14 +10,14 @@ import requests
 import subprocess
 
 ################################################################################
-VERSION = "1.0.2"
+VERSION = "1.0.3"
 
 ################################################################################
 PUSH_TO_ALLSPICE_SCRIPT_URL = "https://hub.allspice.io/AllSpice-Demos/Perforce-AllSpice-Integration/raw/branch/main/push_to_allspice_windows.py"
 #PUSH_TO_ALLSPICE_SCRIPT_URL = "https://hub.allspice.io/AllSpice-Demos/Perforce-AllSpice-Integration/raw/branch/main/push_to_allspice_windows.py"
-REMOTE_SCRIPT_MODULE_PATH = "C:\allspice\tmp"
-REMOTE_SCRIPT_TEMP_LOCATION = "C:\allspice\tmp\tmp.py"
-LOCAL_SCRIPT_LOCATION = "C:\allspice\push_to_allspice_windows.py"
+REMOTE_SCRIPT_MODULE_PATH = "C:/allspice/tmp"
+REMOTE_SCRIPT_TEMP_LOCATION = "C:/allspice/tmp/tmp.py"
+LOCAL_SCRIPT_LOCATION = "C:/allspice/push_to_allspice_windows.py"
 
 ################################################################################
 def remote_script_is_newer_version(v2):
