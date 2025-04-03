@@ -10,10 +10,10 @@ import requests
 import subprocess
 
 ################################################################################
-VERSION = "1.0.3"
+VERSION = "1.0.4"
 
 ################################################################################
-PUSH_TO_ALLSPICE_SCRIPT_URL = "https://hub.allspice.io/AllSpice-Demos/Perforce-AllSpice-Integration/raw/branch/main/push_to_allspice_windows.py"
+PUSH_TO_ALLSPICE_SCRIPT_URL = "https://raw.githubusercontent.com/polypour/testy/refs/heads/main/push_to_allspice_windows.py"
 #PUSH_TO_ALLSPICE_SCRIPT_URL = "https://hub.allspice.io/AllSpice-Demos/Perforce-AllSpice-Integration/raw/branch/main/push_to_allspice_windows.py"
 REMOTE_SCRIPT_MODULE_PATH = "C:/allspice/tmp"
 REMOTE_SCRIPT_TEMP_LOCATION = "C:/allspice/tmp/tmp.py"
