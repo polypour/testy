@@ -10,7 +10,7 @@ import requests
 import subprocess
 
 ################################################################################
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 ################################################################################
 PUSH_TO_ALLSPICE_SCRIPT_URL = "https://hub.allspice.io/AllSpice-Demos/Perforce-AllSpice-Integration/raw/branch/main/push_to_allspice_windows.py"
