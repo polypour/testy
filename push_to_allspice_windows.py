@@ -10,7 +10,7 @@ import requests
 import subprocess
 
 ################################################################################
-VERSION = "1.0.5"
+VERSION = "1.0.6"
 
 ################################################################################
 PUSH_TO_ALLSPICE_SCRIPT_URL = "https://raw.githubusercontent.com/polypour/testy/refs/heads/main/push_to_allspice_windows.py"
